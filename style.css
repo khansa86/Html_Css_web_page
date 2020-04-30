@@ -1,0 +1,97 @@
+.maina{
+    display: flex;
+    justify-content: space-around;
+    background-color: royalblue;
+  
+}
+.mainb{
+    display: flex;
+    background-color: honeydew;
+    justify-content: space-around;
+    min-width: 50px;
+    max-width: 1000px;
+   
+
+}
+
+.maind{
+    background-color: royalblue;
+    margin: 2px 2px 2px 2px;
+
+}
+.maine{
+    margin: 2px 2px 2px 2px;
+    background-color: ivory;
+    border: 1px solid grey;
+}
+.text{
+    font-size: xx-small;
+    color: white;
+    margin:7px;
+   
+}
+.text1{
+    display: inline-block;
+    text-transform: uppercase;
+    color: blue;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 25px;
+}
+.text2{
+    display: inline-block;
+    text-transform: uppercase;
+    color: green;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 25px;
+}
+.text3{
+    color: black;
+    font-size: xx-small;
+    font-family: sans-serif;
+}
+.b1{
+    font-size: xx-small;
+    background-color: white;
+    padding: 2px;
+    color: teal;
+}
+.logo:hover{
+    background-color: rgba(21, 21, 151,0.5);
+    cursor:pointer;
+
+}
+.logo6{
+    margin-right: 20px;
+}
+.b1:hover{
+    cursor: pointer;
+}
+.b1{
+    
+    border: solid 1px teal;
+    font-size: 6px; 
+}
+.link{
+    color: black;
+    display:inline-block;
+    justify-content: end;
+    list-style: none;
+    font-size: 8px;
+}
+.link:hover{
+    background-color: royalblue;
+    opacity: 0.5;
+    color: white;
+    border-radius: 8px;
+}
+.slide{
+    background-color: royalblue;
+    color: white;
+    font-size: x-small;
+    text-align: center;
+}
+
