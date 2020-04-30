@@ -10,7 +10,6 @@
     justify-content: space-around;
     min-width: 50px;
     max-width: 1000px;
-   
 
 }
 
@@ -23,6 +22,30 @@
     margin: 2px 2px 2px 2px;
     background-color: ivory;
     border: 1px solid grey;
+}
+.mainf{
+    display: flex;
+    justify-content: space-around;
+    background-color: royalblue;
+  
+}
+.maing{
+    border: inset;
+    background-color: rgb(248, 244, 244);
+}
+
+.main8{
+    margin-top: 10px;
+}
+.main9{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.main10{
+    display: flex;
+
 }
 .text{
     font-size: xx-small;
@@ -52,7 +75,48 @@
     color: black;
     font-size: xx-small;
     font-family: sans-serif;
+    text-align: center; 
+    
 }
+.text4{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+.text5{
+    color: white;
+    text-transform: capitalize;
+    font-size: small;
+    text-align: center;
+}
+.text6{
+    color:royalblue;
+    font-weight: bold ;
+    font-size: small;
+    font-family:serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.text7{
+    color:royalblue;
+    font-weight: bold ;
+    font-size: small;
+    font-family:serif;
+    text-transform: uppercase;
+    text-align: start;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+.text8{
+    display: inline-block;
+    color: royalblue;
+    padding: 5px 5px 5px 5px;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+
+
 .b1{
     font-size: xx-small;
     background-color: white;
@@ -67,6 +131,14 @@
 .logo6{
     margin-right: 20px;
 }
+.logo8{
+    padding: 10px 2px 5px 2px;
+}
+.logo8:hover{
+    cursor: pointer;
+}
+
+
 .b1:hover{
     cursor: pointer;
 }
@@ -94,4 +166,22 @@
     font-size: x-small;
     text-align: center;
 }
+.container1{
+    
+    background-color: honeydew;
+    box-shadow: 5px 8px 5px lightslategray;
+    margin: 10px 10px 10px 10px;
+    width: 600px;
+    text-align: center;
+    
+}
+.container2{
+    background-color: #f2f2f2;
+    border: 1px solid gainsboro;
+    padding: 2px 100px 2px 2px;
+    margin:5px 4px 5px 4px ;
+    width: 250px;
+}
+
+
 
