@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     background-color: royalblue;
+   
   
 }
 .mainb{
@@ -10,6 +11,7 @@
     justify-content: space-around;
     min-width: 50px;
     max-width: 1000px;
+    flex-wrap: wrap;
 
 }
 
@@ -25,15 +27,19 @@
 }
 .mainf{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: royalblue;
+   
   
 }
 .maing{
     border: inset;
     background-color: rgb(248, 244, 244);
 }
-
+.mainh{
+    display: flex;
+    flex-wrap: wrap;
+}
 .main8{
     margin-top: 10px;
 }
@@ -41,11 +47,26 @@
     display: flex;
     justify-content: center;
    
+   
     
 }
 .main10{
     display: flex;
+    justify-content: left;
+    
+    
 
+}
+.main11{
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+.main12{
+    display: flex;
+    justify-content: flex-end;
+    
 }
 .text{
     font-size: xx-small;
@@ -86,7 +107,7 @@
 }
 .text5{
     color: white;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-size: small;
     text-align: center;
 }
@@ -104,16 +125,17 @@
     font-size: small;
     font-family:serif;
     text-transform: uppercase;
-    text-align: start;
+    text-align: center;
     margin-top: 10px;
     margin-left: 3px;
 }
 .text8{
     display: inline-block;
     color: royalblue;
-    padding: 5px 5px 5px 5px;
+    /* padding: 5px 5px 5px 5px; */
     text-transform: uppercase;
-    font-size: smaller;
+    font-size: 8px;
+  
 }
 
 
@@ -160,11 +182,17 @@
     color: white;
     border-radius: 8px;
 }
-.slide{
+.slide1{
     background-color: royalblue;
     color: white;
     font-size: x-small;
     text-align: center;
+}
+.slide2{
+    background-color: white;
+    font-family: cursive;
+    font-size: 8px;
+    color: gray;
 }
 .container1{
     
@@ -180,7 +208,15 @@
     border: 1px solid gainsboro;
     padding: 2px 100px 2px 2px;
     margin:5px 4px 5px 4px ;
-    width: 250px;
+   min-width:fit-content;
+   max-width: 200px ;
+    
+}
+.container3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
 
 
