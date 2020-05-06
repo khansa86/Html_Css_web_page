@@ -1,75 +1,17 @@
-.maina{
-    display: flex;
-    justify-content: space-around;
-    background-color: royalblue;
-   
-  
-}
-.mainb{
-    display: flex;
-    background-color: honeydew;
-    justify-content: space-around;
-    min-width: 50px;
-    max-width: 1000px;
-    flex-wrap: wrap;
-
-}
-
-.maind{
-    background-color: royalblue;
-    margin: 2px 2px 2px 2px;
-
-}
-.maine{
-    margin: 2px 2px 2px 2px;
-    background-color: ivory;
-    border: 1px solid grey;
-}
-.mainf{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: royalblue;
-   
-  
-}
-.maing{
-    border: inset;
-    background-color: rgb(248, 244, 244);
-}
-.mainh{
-    display: flex;
-    flex-wrap: wrap;
-}
-.main8{
+.mainp{
+    
+    
     margin-top: 10px;
-}
-.main9{
-    display: flex;
-    justify-content: center;
-   
-   
-    
-}
-.main10{
-    display: flex;
-    justify-content: left;
-    
+    padding: 50px 50px 50px 50px;
     
 
 }
-.main11{
-    display: flex;
-    justify-content: space-around;
-   
-
-}
-.main12{
-    display: flex;
-    justify-content: flex-end;
-    
+.mainy{
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
 .text{
-    font-size: xx-small;
+    font-size: large;
     color: white;
     margin:7px;
    
@@ -79,22 +21,24 @@
     text-transform: uppercase;
     color: blue;
     font-family:'Times New Roman', Times, serif;
-    font-size: large;
+    font-size: xx-large;
     font-weight: bold;
     padding-top: 25px;
+    
 }
 .text2{
     display: inline-block;
     text-transform: uppercase;
     color: green;
     font-family:'Times New Roman', Times, serif;
-    font-size: large;
+    font-size: xx-large;
     font-weight: bold;
     padding-top: 25px;
+   
 }
 .text3{
     color: black;
-    font-size: xx-small;
+    font-size: large;
     font-family: sans-serif;
     text-align: center; 
     
@@ -102,27 +46,27 @@
 .text4{
     color: white;
     font-weight: bold;
-    font-size: larger;
-    text-align: center;
+    font-size: 20px;
+    
 }
 .text5{
     color: white;
     text-transform: uppercase;
-    font-size: small;
-    text-align: center;
+    font-size: 15px;
+    
 }
 .text6{
     color:royalblue;
     font-weight: bold ;
-    font-size: small;
+    font-size: 20px;
     font-family:serif;
     text-transform: uppercase;
-    text-align: center;
+    /* text-align: center; */
 }
 .text7{
     color:royalblue;
     font-weight: bold ;
-    font-size: small;
+    font-size: x-large;
     font-family:serif;
     text-transform: uppercase;
     text-align: center;
@@ -132,12 +76,26 @@
 .text8{
     display: inline-block;
     color: royalblue;
-    /* padding: 5px 5px 5px 5px; */
     text-transform: uppercase;
-    font-size: 8px;
+    font-size: 15px;
   
 }
-
+.text12{
+    font-size: 12px;
+    color: white;
+    font-family: sans-serif;
+}
+.text13{
+    font-size: 12px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.text14{
+    font-size: 10px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
 
 .b1{
     font-size: xx-small;
@@ -145,19 +103,37 @@
     padding: 2px;
     color: teal;
 }
+
+
 .logo:hover{
     background-color: rgba(21, 21, 151,0.5);
     cursor:pointer;
+    transform: scale(1.2); 
 
 }
 .logo6{
-    margin-right: 20px;
+    border: 1px solid wheat;
 }
+
 .logo8{
     padding: 10px 2px 5px 2px;
 }
 .logo8:hover{
     cursor: pointer;
+    transform: scale(1.2);
+    
+}
+.logo10:hover{
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+    cursor: pointer;
+   transform: scale(1.2); 
+
+}
+.scroll{
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
 }
 
 
@@ -167,56 +143,67 @@
 .b1{
     
     border: solid 1px teal;
-    font-size: 6px; 
+    font-size: small; 
 }
-.link{
-    color: black;
+.linkc{
+    /* color: black; */
     display:inline-block;
     justify-content: end;
     list-style: none;
-    font-size: 8px;
+    
 }
-.link:hover{
+.linkc:hover{
     background-color: royalblue;
     opacity: 0.5;
-    color: white;
+    color: thistle;
     border-radius: 8px;
 }
-.slide1{
-    background-color: royalblue;
+.linkc:focus{
+    background-color: blue;
+    border-radius: 8px;
     color: white;
-    font-size: x-small;
+}
+.active{
+    background-color: blue;
+    border-radius: 8px;
+    color: white;
+}
+.slide1{
+    color: white;
+    font-size:large;
     text-align: center;
 }
-.slide2{
-    background-color: white;
+.slide2{  
     font-family: cursive;
     font-size: 8px;
-    color: gray;
+    color: gray;   
 }
 .container1{
-    
-    background-color: honeydew;
+    background-color: white;
     box-shadow: 5px 8px 5px lightslategray;
-    margin: 10px 10px 10px 10px;
-    width: 600px;
-    text-align: center;
-    
+    border: 2px solid gray; 
 }
 .container2{
     background-color: #f2f2f2;
-    border: 1px solid gainsboro;
-    padding: 2px 100px 2px 2px;
-    margin:5px 4px 5px 4px ;
-   min-width:fit-content;
-   max-width: 200px ;
+    border: 3px solid white;
+   padding: 4xp 4px 4px 4px;
     
 }
 .container3{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    border: 2px solid white;
     
+}
+.cont4{
+    padding: 10px 10px 10px 50px;
+}
+.cont5{
+    padding: 20px 10px 20px 10px;
+}
+.row-c{
+    padding: 10px 10px 10px 10px;
+}
+.colu{
+    padding: 10px 2px 2px 2px;
 }
 
 
